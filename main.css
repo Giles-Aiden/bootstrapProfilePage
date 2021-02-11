@@ -1,0 +1,8 @@
+.fbreak {
+  flex-basis: 100%;
+  width: 0;
+}
+.img-thumbnail {
+  width: 1px;
+  flex-shrink: 1;
+}

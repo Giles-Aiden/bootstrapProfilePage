@@ -1,0 +1,5 @@
+.table {
+  --bs-table-bg: purple;
+  --bs-table-striped-bg: orange;
+  --bs-table-hover-bg: blue;
+}
