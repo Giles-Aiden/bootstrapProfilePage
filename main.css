@@ -1,8 +1,30 @@
+.container {
+  width: 100%;
+  border: 1em aqua groove;
+  font-size: 2vw;
+}
+
+.row {
+  margin: 0.5em;
+}
+
+.img-thumbnail {
+  background-color: grey;
+}
+
+.h-divider {
+  margin: 1em auto;
+  height: 1px;
+  width: 80%;
+  border-top: 1em aqua groove;
+}
+
 .fbreak {
   flex-basis: 100%;
   width: 0;
 }
-.img-thumbnail {
-  width: 1px;
-  flex-shrink: 1;
+
+.info {
+  margin-left: 1em;
+  margin-top: 1em;
 }
