@@ -1,22 +1,45 @@
+/*
+ * Color Scheme
+ *  #DB8A0B
+ *  #16DB5E
+ *  #DB4900
+ *  #1680DB
+ *  #DB140B
+ */
+
 .container {
   width: 100%;
-  border: 1em aqua groove;
-  font-size: 2vw;
+  border: 1em #1680db groove;
+  background-color: #db8a0b;
 }
 
 .row {
   margin: 0.5em;
+  flex-wrap: nowrap;
 }
 
 .img-thumbnail {
-  background-color: grey;
+  background-color: #1680db;
+  border-color: #1680db;
 }
 
 .h-divider {
   margin: 1em auto;
   height: 1px;
   width: 80%;
-  border-top: 1em aqua groove;
+  border-top: 1em #1680db groove;
+}
+
+.card-body {
+  background: #db4900;
+}
+
+.accordion-item {
+  background-color: #16db5e;
+}
+
+.accordion-body {
+  background-color: #1680db;
 }
 
 .fbreak {
@@ -27,4 +50,24 @@
 .info {
   margin-left: 1em;
   margin-top: 1em;
+}
+
+body {
+  background-color: darkgray;
+}
+
+div {
+  font-size: 2vw;
+}
+
+h4 {
+  font-size: 3vw;
+}
+
+h5 {
+  font-size: 2.5vw;
+}
+
+h6 {
+  font-size: 2vw;
 }
